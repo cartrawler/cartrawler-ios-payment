@@ -78,5 +78,12 @@
  @param json Vehicle booking JSON with placeholders for card details
  */
 - (void)makePaymentWithJSON:(NSString *)json;
+/**
+ Call this when you need to make a payment without using the framework form.
+ The JSON will be injected without the card details and communicated to the Car Trawler secure back end
+ 
+ @param json Vehicle booking JSON
+ */
+- (void)makeCustomPaymentWithJSON:(NSString *)json;
 
 @end
