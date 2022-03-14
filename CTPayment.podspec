@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "CTPayment"
-s.version      = "2.0.1"
+s.version      = "2.0.0"
 s.summary      = "The Cartrawler SDK"
 s.description  = <<-DESC
 A toolkit for car rental & ground transport
